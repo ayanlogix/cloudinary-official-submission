@@ -89,5 +89,20 @@
         setTimeout(() => addLog('Authenticating via Auth0/SDK...'), 2000);
         setTimeout(() => addLog('Active Session Verified'), 3500);
     </script>
+    <script>
+        document.querySelectorAll('.card').forEach(card => {
+            card.onclick = () => {
+                const effect = card.getAttribute('data-effect') || 'e_cartoonify';
+                const mainImg = document.getElementById('main-preview') || document.querySelector('img');
+                addLog('Applying AI Effect: ' + effect);
+                mainImg.style.opacity = '0.5';
+                mainImg.src = 'https://res.cloudinary.com/demo/image/upload/' + effect + '/sample.jpg';
+                mainImg.onload = () => {
+                    mainImg.style.opacity = '1';
+                    addLog('AI Transformation Complete: ' + effect);
+                };
+            };
+        });
+    </script>
 </body>
 </html>
