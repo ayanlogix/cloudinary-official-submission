@@ -1,14 +1,14 @@
-# 🚀 Cloudinary AI Dashboard
+# 🚀 Premium Hackathon Project
 
-An interactive media dashboard that programmatically manages 8+ AI transformations via Cloudinary APIs.
+## 🛠️ Technical Skills Implemented
+* Cloudinary AI
+* Media Orchestration
 
-## 🛠️ Built With
-* GitHub Copilot
-* Modern Web Technologies
-* AI-Powered Workflows
+## ⚙️ Technical Proof
+Used programmatically generated URLs to trigger 8+ AI transformations including background removal and artistic filters.
 
 ## 🚀 Deployment
-This project is live via HTMLPreview!
+Live Preview available via HTMLPreview!
 
 ---
-Built for **MLH GenAI Hack Week 2025** 🏆
+🏆 Built for **MLH GenAI Hack Week 2025**
